@@ -1,3 +1,5 @@
+
+
 body {
 	background-color: LightGray;
 	width: 100%;
@@ -12,4 +14,26 @@ body {
 	width: 970px;
 	height: 70px;
 	margin: 0 auto;
+	padding: 0px 15px;
+}
+
+.top-navigation .links > .active {
+	color: #4C5058;
+	font-weight: 500;
+}
+
+.links > li {
+	display: inline-block;
+	list-style: none;
+	margin-left: 1.5rem;
+}
+
+.links {
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	color: #838994;
+	letter-spacing: 0.03em;
+	float: right;
+	margin-top: 1.5em;
+
 }
