@@ -1,4 +1,10 @@
+html {
+	box-sizing: border-box;
+}
 
+*, *:before, *after {
+	box-sizing: inherit;
+}
 
 body {
 	background-color: LightGray;
@@ -12,28 +18,45 @@ body {
 
 .top-navigation > .content {
 	width: 970px;
-	height: 70px;
+	height: 4.375rem;
 	margin: 0 auto;
 	padding: 0px 15px;
 }
 
-.top-navigation .links > .active {
+.content {
+	padding: 0 0.938rem;
+	margin: 0 auto;
+}
+
+.top-navigation .logo {
+	height: 4.375rem;
+}
+
+.top-navigation .links {
+	float: right;
+	font-family: 'Roboto', sans-serif;
+	color: #838994;
+	font-size: 16px;
+	margin-top: 25px;
+	-webkit-font-smoothing: antialiased;
+}
+
+.top-navigation .links li {
+	display: inline-block;
+	margin-left: 25px;
+}
+
+.top-navigation .links .active {
 	color: #4C5058;
 	font-weight: 500;
 }
 
-.links > li {
-	display: inline-block;
-	list-style: none;
-	margin-left: 1.5rem;
+.top-navigation .links li:hover {
+	cursor: pointer;
+	color: #333333;
 }
 
-.links {
-	font-family: 'Roboto', sans-serif;
-	font-size: 16px;
-	color: #838994;
-	letter-spacing: 0.03em;
-	float: right;
-	margin-top: 1.5em;
 
-}
+
+
+
