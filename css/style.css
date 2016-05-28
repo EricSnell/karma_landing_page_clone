@@ -137,7 +137,6 @@ button:hover {
 	width: 32.3333333%;
 	display: inline-block;
 	/* styles to assist with debugging */
-	border: 1px solid black;
 	box-sizing: border-box;
 	height: 4em;
 }
