@@ -139,6 +139,7 @@ button:hover {
 	/* styles to assist with debugging */
 	box-sizing: border-box;
 	height: 4em;
+	margin-bottom: 14rem;
 }
 
 .cases .devices h3 {
@@ -148,6 +149,47 @@ button:hover {
 	margin-bottom: 2rem;
 }
 
+/* Footer */
+
+.social {
+	margin-top: 18rem;
+	overflow: auto;
+	text-align: center;
+	padding-bottom: 9rem;
+}
+
+.social hr {
+	border: 0;
+	border-top: 1px solid #B6B6B4;
+	margin: 1rem 0;
+	display: block;
+}
+
+.social h5 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+}
+
+.social .icons > li {
+	display: inline-block;
+	width: 2.5rem;
+	height: 2.5rem;
+	padding: 1rem;
+}
+
+.social .copy {
+	font-size: 1rem;
+	font-weight: 300;
+	color: #B6B6B4;
+}
+
+.social .icons > li:hover {
+	cursor: pointer;
+}
+
+.fa-circle {
+	color: #4099FF;
+}
 
 
 
