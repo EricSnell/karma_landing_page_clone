@@ -16,6 +16,9 @@ body {
 /* Navigation Section */
 .top-navigation {
 	background-color: #FFF;
+	position: fixed;
+	width: 100%;
+	z-index: 9999;
 }
 
 .top-navigation > .content {
@@ -111,11 +114,37 @@ button:hover {
 
 /* Icons Section */
 
-.cases > h2 {
+.cases {
+	background-color: #FFF;
+	padding-bottom: 5rem;
+}
+
+
+
+.cases h2 {
 	font-family: 'Roboto', sans-serif;
 	text-align: center;
-	margin-top: 4em;
+	font-size: 2.5rem;
+	font-weight: 300;
+	margin-top: 7rem;
+	margin-bottom: 3rem;
 }
+
+.cases .devices {
+	width: 33.3333333%;
+	display: inline-block;
+	/* styles to assist with debugging */
+	border: 1px solid black;
+	box-sizing: border-box;
+	height: 4em;
+}
+
+.cases .devices > li {
+	width: 33.3333333%;
+	float: left;
+}
+
+
 
 
 
