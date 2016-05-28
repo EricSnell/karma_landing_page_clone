@@ -10,6 +10,7 @@ body {
 	background-color: LightGray;
 	width: 100%;
 	font-family: 'Roboto', sans-serfif;
+	-webkit-font-smoothing: antialiased;
 }
 
 /* Navigation Section */
@@ -61,11 +62,11 @@ body {
 /* Introduction Section */
 
 .introduction {
-	background-image: url('images/first-background.jpg');
-	background-position: center bottom;
+	background-image: url('../images/first-background.jpg');
+	background-position: 0 bottom;
 	background-repeat: no-repeat;
 	background-size: cover;
-	height: 45.938rem;
+	height: 650px;
 	overflow: auto;
 }
 
@@ -93,12 +94,12 @@ button:hover {
 }
 
 .introduction h1 {
-	margin-top: 17.5rem;
+	margin-top: 12rem;
 	font-size: 3.125rem;
 }
 
 .introduction h3 {
-	margin-top: 1.25rem;
+	margin-top: -1rem;
 	font-size: 1.563rem;
 }
 
